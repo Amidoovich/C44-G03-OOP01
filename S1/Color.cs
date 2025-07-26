@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace S1
 {
-    [Flags]
-    internal enum Permissions : byte
+    internal enum Color
     {
-        Delete = 1,
-        Excute = 2,
-        Read = 4,
-        Write = 8
+        Red,
+        Green,
+        Blue
     }
-
 }
